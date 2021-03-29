@@ -11,10 +11,12 @@ I'm learning guitar and trying to play along with the tabs on ultimate-guitar.co
   * Arduino Micro (to deliver key-presses via usb).
   * Micro-usb cord (to connect computer to arduino micro).
   * Four buttons (12.5mm x 12.5mm), for example:
+
      - yellow &rarr; "slow"
      - green &rarr; "faster/start"
      - red &rarr; "start/stop autoscroll"
      - blue &rarr; "start/stop video"
+
   * 90&deg; male header (or solder onto the board, straight headers are too tall).
   * Easily bendable wire.
   * Shrink-wrap tubes, liquid electrical tape. [or the like]
@@ -25,21 +27,30 @@ I'm learning guitar and trying to play along with the tabs on ultimate-guitar.co
 ## Instructions
 
   1. Prepare Arduino Micro
+
      a. Solder 6pin header spanning pins GND,2,3,4,5.
      b. Upload .ino file via Arduino IDE.
+
   2. Prepare buttons
+
      a. Each button gets one `GND` wire and one `+` wire.
      b. Solder the wires to the button leads (be sure to choose the leads that make the connection when pressed).
      c. Leave enough wire to comfortably work with when the button is locked in.
         * The `+` wire will connect to the pin on the Arduino.
 	* The `GND` wires will be connected together, then connected to the Arduino's GND pin.
      d. Thread the wires through the holes for the leads in the button mount.
+
   3. Prepare Case
+
      a. Print two each of button_case_top and button_case_bottom.
+
         * I use supports when printing the button_case_bottom, due to the overhang of the button mount.
         * I always oriented the printing with the flattest-face against the plate.
+
      b. Print wedge_top and wedge_bottom.
+
   3. Assemble
+
      a. The Arduino can be glued to the bracket in either end-case. I used the left.
      b. The buttons should be glued down into the brackets.
      b. The wires from the opposite end-case should be thread through the holes on the sides of the top pieces and into the case with the Arduino.
