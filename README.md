@@ -28,8 +28,8 @@ I'm learning guitar and trying to play along with the tabs on ultimate-guitar.co
 
   1. Prepare Arduino Micro
 
-      A. Solder 6pin header spanning pins GND,2,3,4,5.
-      B. Upload .ino file via Arduino IDE.
+      1. Solder 6pin header spanning pins GND,2,3,4,5.
+      1. Upload .ino file via Arduino IDE.
 
   2. Prepare buttons
 
