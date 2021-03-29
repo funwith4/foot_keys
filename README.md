@@ -19,7 +19,7 @@ I'm learning guitar and trying to play along with the tabs on ultimate-guitar.co
 
   * 90&deg; male header (or solder onto the board, straight headers are too tall).
   * Easily bendable wire.
-  * Shrink-wrap tubes, liquid electrical tape. [or the like]
+  * Shrink-wrap tubes, liquid electrical tape.
   * Soldering iron, etc.
   * Hot glue gun for assembly.
   * Non-skid mat so it doesn't slide around the floor. [optional]
@@ -28,39 +28,41 @@ I'm learning guitar and trying to play along with the tabs on ultimate-guitar.co
 
   1. Prepare Arduino Micro
 
-     a. Solder 6pin header spanning pins GND,2,3,4,5.
-     b. Upload .ino file via Arduino IDE.
+     A. Solder 6pin header spanning pins GND,2,3,4,5.
+     B. Upload .ino file via Arduino IDE.
 
   2. Prepare buttons
 
-     a. Each button gets one `GND` wire and one `+` wire.
-     b. Solder the wires to the button leads (be sure to choose the leads that make the connection when pressed).
-     c. Leave enough wire to comfortably work with when the button is locked in.
+     A. Each button gets one `GND` wire and one `+` wire.
+     B. Solder the wires to the button leads (be sure to choose the leads that make the connection when pressed).
+     C. Leave enough wire to comfortably work with when the button is locked in.
         * The `+` wire will connect to the pin on the Arduino.
 	* The `GND` wires will be connected together, then connected to the Arduino's GND pin.
-     d. Thread the wires through the holes for the leads in the button mount.
+     D. Thread the wires through the holes for the leads in the button mount.
 
   3. Prepare Case
 
-     a. Print two each of button_case_top and button_case_bottom.
+     A. Print two each of button_case_top and button_case_bottom.
 
         * I use supports when printing the button_case_bottom, due to the overhang of the button mount.
         * I always oriented the printing with the flattest-face against the plate.
 
-     b. Print wedge_top and wedge_bottom.
+     B. Print wedge_top and wedge_bottom.
 
   3. Assemble
 
-     a. The Arduino can be glued to the bracket in either end-case. I used the left.
-     b. The buttons should be glued down into the brackets.
-     b. The wires from the opposite end-case should be thread through the holes on the sides of the top pieces and into the case with the Arduino.
-     c. The buttons `+` wire, from left to right, should connect to the pin 2-5. (I used shrink tubes here.)
+     A. The Arduino can be glued to the bracket in either end-case. I used the left.
+     B. The buttons should be glued down into the brackets.
+     B. The wires from the opposite end-case should be thread through the holes on the sides of the top pieces and into the case with the Arduino.
+     C. The buttons `+` wire, from left to right, should connect to the pin 2-5. (I used shrink tubes here.)
+
         * This pin assignment could be re-mapped in hardware or software.
-     d. The `GND` wires should be connected together and then connected to the `GND` pin. (I used liquid electrical tape here.)
-     e. I hot-glued some of the wires against the case to keep them out of the way of the buttons.
-     f. The tops gets hot-glued to the bottoms.
-     g. The wedge gets hot-glued between the two button cases.
-     h. The non-skid layer gets hot-glued to the bottom.
+
+     D. The `GND` wires should be connected together and then connected to the `GND` pin. (I used liquid electrical tape here.)
+     E. I hot-glued some of the wires against the case to keep them out of the way of the buttons.
+     F. The tops gets hot-glued to the bottoms.
+     G. The wedge gets hot-glued between the two button cases.
+     H. The non-skid layer gets hot-glued to the bottom.
 
 ## Other Notes
 
