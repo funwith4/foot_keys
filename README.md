@@ -61,7 +61,6 @@ I'm learning guitar and trying to play along with the tabs on ultimate-guitar.co
      f. The tops gets hot-glued to the bottoms.
      g. The wedge gets hot-glued between the two button cases.
      h. The non-skid layer gets hot-glued to the bottom.
-    
 
 ## Other Notes
 
